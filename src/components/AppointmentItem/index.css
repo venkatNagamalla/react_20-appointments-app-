@@ -1,0 +1,44 @@
+/* Write your CSS here */
+
+.list-element {
+  border: 1px solid #b5b7c4;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 15px;
+  margin-bottom: 15px;
+
+  border-radius: 8px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .list-element {
+    width: 31%;
+    margin-right: 15px;
+  }
+}
+
+.app-title {
+  color: #171f46;
+  font-size: 18px;
+}
+
+.app-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date {
+  color: #b5b7c4;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.star-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
